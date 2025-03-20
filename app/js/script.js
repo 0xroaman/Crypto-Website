@@ -1,3 +1,6 @@
+//This is required for
+
+
 const navbarShowBtn = document.querySelector('.navbar-show-btn');
 const navbarHideBtn = document.querySelector('.navbar-hide-btn');
 const navbarListWrapper = document.querySelector('.navbar-list-wrapper');
@@ -18,3 +21,5 @@ window.addEventListener('resize', () => {
         document.body.classList.remove('resize-animation-stopper');
     }, 400);
 });
+
+
